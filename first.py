@@ -33,3 +33,9 @@ result = ''
 for e in self.vals:
 result = result + str(e) + ','
 return '{' + result[:-1] + '}' #-1 omits trailing comma
+
+# instantiation is used to create instances of the class
+s = IntSet() # creates a new object of type intSet. 's' object is called instance of IntSetself.
+#Attribute references use dot notation to access attributes associated with the
+#class. For example, s.member refers to the method member associated with the instance
+#s of type IntSet.
